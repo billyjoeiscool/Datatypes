@@ -76,17 +76,41 @@ if (i/6==0){
     }
     }
     }
-    public void M1(GraphicsContext gc ){
-        for (int i = 0; i < 500; i++) {
-        if (i / 10 == 0) {
-        gc.setFill(Color.CYAN);   
-            gc.fillOval(200, 200, 100, 100);
+    public void cheeks(GraphicsContext gc ) {
+        gc.setFill(Color.RED);   
+            gc.fillOval(30, 80, 30, 30);
+   gc.fillOval(200,200, 100, 30);
         }
         }
     }
+    public void neacklace(GraphicsContext gc) {
+        gc.setfill(Color.BLACK);
+        gc.fillOval(150,200,30,30);
+        gc.fillOval(200,200,30,50);
+        gc.fillOval(250,200,30,30);
+        gc.fillOval(300,200,30,30);
+        gc.fillOval(350,200,30,30);
 }
-
-    
-    
-
-    
+}
+ }
+ public void M3(GraphicsContext gc) {
+ gc.setfill(Color.White);
+ gc.fillOval(150,200,15,30);
+ gc.fillOval(200,200,15,30);
+ gc.fillOval(250,200,15,30);
+ gc.fillOval(300,200,15,30);
+ gc.fillOval(350,200,15,30)
+ }
+    }
+}
+ public void M4(GraphicsContext gc) {
+     gc.setfill(Color.White);
+     gc.fillOval(80, 60, 20, 20);
+    gc.fillOval(30, 80, 20, 20);
+ }   
+}
+}
+public void M5(GraphicsContext gc) {
+  gc.fillstroke(Color.black); 
+  gc.strokeOval(90,120, 500,500); 
+}
